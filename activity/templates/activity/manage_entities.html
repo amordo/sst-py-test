@@ -17,6 +17,10 @@
       sit amet risus.</p>
   </article>
 
+  {% for activity in activities %}
+  <p><b>{{activity.activity}} by {{activity.account}}</b></p>
+  {% endfor %}
+
   <article>
     <h2><a href="">My second post</a></h2>
     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida
